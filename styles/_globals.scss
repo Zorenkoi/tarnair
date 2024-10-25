@@ -1,0 +1,90 @@
+body {
+  font-family: "Bahnschrift";
+  color: $color-black;
+}
+.container {
+  max-width: 1360px;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+.header2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+@media (max-width: 1336px) {
+  .title {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 720px) {
+  .title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 414px) {
+  .title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+}
